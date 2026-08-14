@@ -1,3 +1,7 @@
-welcome to atlas 
-dayemmmmmmmmmmmm
-hmmmm
+class Student:
+    def __init__(self):
+        self.name = "Shaunak"
+        self.division = "B"
+
+    def introduce(self):
+        return f"Hi, I'm {self.name} from Division {self.division}"
